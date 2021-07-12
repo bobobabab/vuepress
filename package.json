@@ -1,0 +1,21 @@
+{
+  "name": "vuepress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean",
+    "publish": "npm run build && lerna publish --skip-git",
+    "build": "node scripts/build",
+    "test": "node scripts/test",
+    "docs:dev": "vuepress dev docs --no-cache",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
