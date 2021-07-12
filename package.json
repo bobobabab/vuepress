@@ -10,7 +10,8 @@
     "build": "node scripts/build",
     "test": "node scripts/test",
     "docs:dev": "vuepress dev docs --no-cache",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "keywords": [],
   "author": "",
