@@ -1,7 +1,7 @@
 'use strict';
 
-const verify = require('..');
+const verify = require('../lib');
 
 describe('@kola/verify', () => {
-    it('needs tests');
+  it('needs tests');
 });

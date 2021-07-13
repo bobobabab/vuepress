@@ -7,7 +7,7 @@ const fs = require('fs')
 const path = require('path')
 const packages = fs.readdirSync(path.resolve(__dirname, '../packages/'))
 
-function getExternals (dependencies) {
+function getExternals(dependencies) {
   return externals = {
     '@jzjy/request': {
       root: 'request',
@@ -60,7 +60,7 @@ packages.forEach(item => {
   }
 })
 
-function build (configs) {
+function build(configs) {
   configs.forEach(config => {
     webpack(webpackConfig(config), (err, stats) => {
       if (err) {
@@ -91,5 +91,6 @@ if (args.p) {
     console.error(`${args.p} 包找不到`)
   }
 } else {
+  console.log(packageWebpackConfig)
   build(Object.values(packageWebpackConfig))
 }
