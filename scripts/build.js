@@ -91,6 +91,5 @@ if (args.p) {
     console.error(`${args.p} 包找不到`)
   }
 } else {
-  console.log(packageWebpackConfig)
   build(Object.values(packageWebpackConfig))
 }
