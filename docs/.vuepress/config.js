@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/',
+  base: './',
   dest: 'docs/dist',
   prot: 8090,
   serviceWorker: true,
