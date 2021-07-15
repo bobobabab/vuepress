@@ -9,8 +9,8 @@ module.exports = {
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: '盐课堂',
-      description: '盐课堂多模板快速开发工具'
+      title: 'lanbo',
+      description: 'lanbo多模板快速开发工具'
     }
   },
   themeConfig: {

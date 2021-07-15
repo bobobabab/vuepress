@@ -18,12 +18,12 @@ sidebar: auto
 
 ## 项目介绍及地址
 
-* 盐课堂控制台前端工程 [pigx-ui](http://git.jze100.com:8000/saltclass/pigx-ui)
+* lanbo控制台前端工程 [pigx-ui](http://git.jze100.com:8000/saltclass/pigx-ui)
 * 网页直播端 [web-live](http://git.jze100.com:8000/saltclass/web-live)
-* 盐课堂（服务端渲染工程）[web-nuxt](http://git.jze100.com:8000/saltclass/web-nuxt)
+* lanbo（服务端渲染工程）[web-nuxt](http://git.jze100.com:8000/saltclass/web-nuxt)
 * 家庭教育前端 [home-education-web](http://git.jze100.com:8000/saltclass/home-education-web)
-* 小盐课堂 [qk-web](http://git.jze100.com:8000/saltclass/qk-web)
-* 盐课堂控制台 [market-operation-console](http://git.jze100.com:8000/saltclass/market-operation-console)
+* 小lanbo [qk-web](http://git.jze100.com:8000/saltclass/qk-web)
+* lanbo控制台 [market-operation-console](http://git.jze100.com:8000/saltclass/market-operation-console)
 
 ## 开发相关
 
