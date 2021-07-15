@@ -1,7 +1,7 @@
 module.exports = {
-  base: './',
+  base: '/',
   dest: 'docs/dist',
-  prot: 8090,
+  // prot: 8090,
   serviceWorker: true,
   head: [
   ],
