@@ -17,6 +17,7 @@ module.exports = options => {
       libraryTarget: 'umd',
       umdNamedDefine: true,
       library,
+      // assetsPublicPath: './',
       libraryExport: 'default'
     },
     externals: options.externals,
