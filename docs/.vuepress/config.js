@@ -1,7 +1,7 @@
 module.exports = {
   base: './',
   dest: 'docs/dist',
-  // prot: 8090,
+  prot: 8090,
   serviceWorker: true,
   head: [
   ],
@@ -14,7 +14,7 @@ module.exports = {
     }
   },
   themeConfig: {
-    logo: '/jzjy.png',
+    // logo: '/jzjy.png',
     editLinks: true,
     docsDir: 'docs',
     locales: {
