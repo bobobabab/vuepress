@@ -17,8 +17,8 @@ module.exports = options => {
       libraryTarget: 'umd',
       umdNamedDefine: true,
       library,
-      // assetsPublicPath: './',
-      libraryExport: 'default'
+      libraryExport: 'default',
+      publicPath: './'
     },
     externals: options.externals,
     plugins: [
@@ -54,6 +54,7 @@ module.exports = options => {
           test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
           loader: 'url-loader',
           options: {
+            publicPath: './',
             limit: 10000
           }
         }
